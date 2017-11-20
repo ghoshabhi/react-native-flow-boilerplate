@@ -1,0 +1,9 @@
+{
+	"parser": "babel-eslint",
+	"extends": "airbnb",
+	"plugins": ["react", "jsx-a11y", "import"],
+	"rules": {
+		"comma-dangle": "error",
+		"react/jsx-max-props-per-line": [1, { "maximum": 1 }]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "RNFlowBoilerplate",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"flow start": "flow start",
+		"flow stop": "flow stop",
+		"flow status": "flow status",
+		"flow coverage": "flow coverage",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0",
+		"react-native": "0.50.3"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.0.2",
+		"babel-jest": "21.2.0",
+		"babel-preset-flow": "^6.23.0",
+		"babel-preset-react-native": "4.0.0",
+		"flow-bin": "0.56.0",
+		"jest": "21.2.1",
+		"prettier-eslint": "^8.2.2",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
